@@ -1,0 +1,8 @@
+{
+    "git.openRepositoryInParentFolders": "never",
+    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "Default High Contrast Light",
+    "workbench.tips.enabled": false,
+    "workbench.welcomePage.walkthroughs.openOnInstall": false,
+    "workbench.startupEditor": "readme"
+}
