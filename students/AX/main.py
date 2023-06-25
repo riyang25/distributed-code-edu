@@ -1,4 +1,4 @@
-# My name is Somebody
+ #My name is AT
 
 # This is a variable.
 x = 5                   # An integer
@@ -28,4 +28,36 @@ b1 = True
 b2 = False
 print(b1 and b2) # False because b2 is false. Both must be true for it to print true.
 print(b1 or b2) # True because b1 is true. At least one must be true for it to print true.
-print(b1 ^ b2) # True. This is called XOR, it gives true if b1 and b2 are different.
+print(b1 ^ b2) # True. This is called XOR, it gives true if b1 and b2 are dif
+
+#This is a tuple.
+
+you = ("Alice," "21," "Pittsburg")
+# It is a collection of things.abs
+
+print(you[0]) #Print the first element of the tuple
+
+print (you[0]), "is", you[1], "years old snd lives in", you[2] 
+
+print(you[-1])
+
+# Print (you)
+
+#This is a list
+
+you = ("Bob", 25, "Wyoming")
+
+print(you)
+
+
+print(you)
+
+#Comparison Operates
+
+a = 5
+b = 10
+print(a == b)
+
+print (a == b) #Equality
+
+print(a!=b) # Not equal to.and

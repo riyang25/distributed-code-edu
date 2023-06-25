@@ -17,3 +17,11 @@ b2=False
 print(b1 and b2)#are_you_alive=True
 print(b1 or b2)#are_you_alive=are_you_alive=False
 print(b1 ^ b2)#are_you_alive=not are_you_alive
+#This is a tuple
+you=("Kevin", 12, "iowa city")
+#It is a collection of things
+print(you[0], "is", you[1], "and lives in", you[2])
+#comparison operators
+a=5
+b=10
+print(a==b)

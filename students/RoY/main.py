@@ -24,3 +24,21 @@ b2=False
 print(b1 and b2)
 print(b1 or b2)
 print (b1 ^ b2)
+
+you = ('Rosanna', 'and', 'I', 'live','in', 'Iowa', 'city') 
+print(you[1])
+print(you[-1])
+print(you[1])
+
+you2 = ["Rosanna", 10, "home"]
+
+you2[1] = 11
+print(you2)
+
+a=10
+b=10
+print(a==b)
+
+print(a!=b) #inequality
+print(a>b)
+print(a<b)

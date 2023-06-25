@@ -24,3 +24,15 @@ b2 = False
 print(b1 and b2) # False because b2 is false. Both must be true for it to print true.
 print(b1 or b2) # True because b1 is true. At least one must be true for it to print true.
 print(b1 ^ b2) # True. This is called XOR, it gives true if b1 and b2 are different.
+# This is a tuple
+me =["Lucius", 11, "Chicago"] # Now it's a list.
+print(me[0])
+me[1] = 26
+# Comparison Operatrs
+a=5
+b=10
+print(a==b)
+
+print(a != b) # Not equal to
+
+
