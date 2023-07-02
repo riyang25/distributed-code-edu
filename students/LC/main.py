@@ -36,3 +36,21 @@ print(a==b)
 print(a != b) # Not equal to
 
 
+
+       
+password = "12345"
+if (enter==password)
+    print("You have logged in")
+elif (enter[0]=='1')
+else:
+    print("wrong password")
+    enteredPass = input("What's the password?")
+    if (bank=="yes")
+        print("$1,000,0e00,000,000,000")
+        elif (bank=="no"):
+            print("bye")
+x=10
+y=0
+while (y<x)
+    print(y)
+    y=y+1

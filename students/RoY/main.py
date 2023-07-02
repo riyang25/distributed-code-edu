@@ -42,3 +42,26 @@ print(a==b)
 print(a!=b) #inequality
 print(a>b)
 print(a<b)
+
+if (a==b) :
+    print("Hello World")
+else: 
+    print("Bye World")
+
+enter=1234
+if enter==34215:
+    print("something")
+
+print('what is your age')
+enter=16
+
+print("no")
+
+a1
+a2
+a3
+a4
+a5
+a6
+a7
+break

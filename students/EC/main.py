@@ -39,10 +39,51 @@ a = 5
 b = 6
 print (a == b)
 
-a = 6
-b = 5
+a = 5
+b = 10
 print (a == b)
 
 #inequality Comparison
 print(a!=b)
 print (a>b)
+print(a<=b)
+if(a==b):
+    print("A and B are equal")
+    print(1+2)
+else :
+    print("A and B are not equal")
+password = "12345"
+enter="12345"
+if (enter==password) :
+    print("you have logged in")
+elif (enter[0]=='1'):
+    print("you have logged in")
+else:
+    print("wrong password")
+    
+#age=int(input("what is your age?"))
+#print(age)
+
+enteredPass=input("What's the password?")
+if(enteredPass==password):
+    print("you have logged in")
+    bank = input("do you want to see your balance")
+    if(bank=="yes"):
+        print("$100") 
+    if(bank=="no") :
+        print("bye")
+x=10
+y=0
+while(y<x):
+    print(y)
+    y=y+1
+times=0
+while (input("what's the password?")!="12345"):
+    print("that's not the correct password.")
+    times=times+1
+    if(times>5):
+        break
+
+if (times>5):
+    print("your computer has been disabled")
+

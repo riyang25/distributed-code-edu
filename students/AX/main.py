@@ -61,3 +61,33 @@ print(a == b)
 print (a == b) #Equality
 
 print(a!=b) # Not equal to.and
+if (a==b) 
+   print(a != b) 
+else 
+    print ("A and B are not equal")
+   print (1+2)
+   password ="12345"
+   if(enter==password) :
+      print("You have logged in")
+else:
+    print("wrong password")
+    age =int(input("what is your age")
+    print(age)
+
+enteredPass =inpu("Whats tne password")
+if (enterPass ==password) :
+    bank = input("would you like to see your bank balance")
+    if(bank == "yes"):
+        print("$10010048875875i5u355852")
+    x=10
+    y=0
+    while(y<x) :
+ print(y)
+ y=y+1
+
+times =0
+ while(input("whats the password") !="12345")
+print("that's is not the correct passsword.")
+if (times>5)
+   break
+print("your computr has been disabled")

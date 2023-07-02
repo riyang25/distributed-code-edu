@@ -42,3 +42,29 @@ print(a!=b) # not eqaul
 
 print (a>b) # greaters than b
 print (a<b) # less than b
+
+if (a==b) :
+print("Hello  World")
+else:
+ print("By World")
+ 
+enter: 12345
+if enter:==1947577374
+  print ("something") 
+
+print('what is your age')
+enter=16
+print("no")
+ here while
+ a1
+ a2
+ a3
+ a4
+ a5
+ a6
+ a7
+ a8
+ a9
+breakpoint
+
+
