@@ -7,7 +7,7 @@
 
 using namespace std;
 
-const string DOMAIN {"riyang25-ubiquitous-yodel-44vx645r5v6376gj-3000.preview.app.github.dev"}; // Enter domain here.
+const string DOMAIN {"automatic-cod-g9rg69jpwgvfvqjr-8000.app.github.dev"}; // Enter domain here.
 
 int main() {
     vector <string> directories {parseList("directories.txt")};
