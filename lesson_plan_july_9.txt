@@ -1,0 +1,83 @@
+Do Aiden’s `class` thing if applicable.
+None Data Type
+There is one kind of data which we haven’t encountered yet called the None data type.
+This data type is less frequently used, but you’ll have to deal with it when using more advanced data types like dictionaries, which we’ll cover later.
+
+nothing = None
+
+thing = "Dijkstra"
+
+# To test if a variable is None, do not use the `==` / comparison operator!
+# Use `is` and `is not`.
+thing is nothing # This returns False.
+thing is not nothing # This returns True.
+
+Dictionaries
+Sometimes you’d like to store data in a complicated format, but aren’t sure how to proceed with it using the data types we’ve taught or classes.
+Maybe the dictionary fits your use case! Say that you’re at a supermarket and you’re purchasing produce. The cost of each item can be represented using a dictionary.
+
+prices = { # Note that this uses curly braces!
+	"Apple" : 0.75, 
+	"Potato" : 0.65, 
+	"Tomato" : 0.50, 
+	"Mango" : 1.00, 
+	"Spinach" : 0.90
+}
+# The first item per line is called a "key" and the second item per line is called a "value". Together they are a "key-value pair".
+# You use the "key" to get the "value", but not the other way around.
+
+# You can get the price of an item with the `.get` method.
+prices.get("Apple") # Returns 0.75.
+prices.get("Spinach") # Returns 0.90.
+
+# If an item is not present, the value returned will default to None.
+prices.get("Lettuce") # "Lettuce" does not have a value! This defaults to None.
+
+# But, you can tell Python to provide a default value other than None
+prices.get("Lettuce", 0) # "Lettuce" does not have a value, but this defaults to 0 instead of None.
+
+# To add a key-value pair into a dictionary, it's simplest to use bracket notation.
+prices["Lettuce"] = 0.25
+# `prices` not has a key-value pair for "Lettuce".
+prices.get("Lettuce") # Returns 0.25.
+
+# You can check if a key is in a dictionary like this.
+"Spinach" in prices # True
+"Celery" in prices # False
+
+# You can delete a key-value pair like you would for a list.
+del prices["Potato"]
+
+Light Exercise: make a dictionary that represents your ideal shopping list, where for each key representing an item in your list, set its value to how many of that item you want to purchase.
+As your programs expand in complexity, you’ll need to split them into multiple files.
+Basic:
+Everybody create another file in your repl called “my_module.py”.
+Inside this module, create a function called “do_something” that prints “Hello.”.
+Instructors, make sure everybody has done this and is following along with the following steps.
+In your main file, add `import my_module` at the top of the file. Note that it doesn’t have `.py` at the end.
+Now, in your main file add the line “my_module.do_something()”.
+You have called a function from another module!
+You’ve actually already used modules, like with the `random` module.
+Dozens of other built-in modules also exist.
+Example of the `http` module.
+
+# First, create a file called `index.html` and put some stuff in it*.
+# Website* (with an asterisk)!
+
+import http.server
+
+PORT = 8000
+Handler = http.server.SimpleHTTPRequestHandler
+httpd = http.server.HTTPServer(("", PORT), Handler)
+
+httpd.serve_forever()
+
+# To stop this server, hit CTRL + C.
+
+cowsay is a third-party module. That means that somebody else wrote the code and put it online for other people to use. Replit will automatically detect third-party modules and install them for you so you can use them in your programs.
+
+import cowsay
+
+cowsay.cow("Hello, world!")
+
+Only do file I/O if there’s time today, otherwise next time.
